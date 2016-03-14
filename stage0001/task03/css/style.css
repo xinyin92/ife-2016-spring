@@ -1,0 +1,58 @@
+/*style.css*/
+body{
+	margin: 0;
+	padding: 20px;
+}
+.clearfix:after {
+	content:"\200B"; 
+	display:block; 
+	height:0; 
+	clear:both; 
+}
+.clearfix { 
+	*zoom:1; 
+}
+.container{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+}
+.left{
+	width: 160px;
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 20px 19px;
+	float: left;
+
+}
+.right{
+	width: 80px;
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 20px 19px 0;
+	float: right;
+
+}
+.main{
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 0 140px 0 220px;
+}
+div.avatar{
+	padding-bottom: 20px;
+	height: 80px;
+}
+div.avatar>img,div.tlogo>img{
+	width: 79px;
+	height: 79px;
+	border: 1px solid #999;
+}
+.tlogo{
+	float: left;
+	margin-right: 20px;
+	height: 80px;
+}
+.tname{
+	font-size: 16px;
+}
